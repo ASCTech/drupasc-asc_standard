@@ -1,0 +1,110 @@
+/* reset css */
+#miscMenu li.collapsed,
+#miscMenu li.expanded,
+#miscMenu li.leaf {
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#miscMenu li.active-trail {
+	background: url(img/menu_arrow.gif) no-repeat 3px 6px;
+}
+
+/* menu css */
+#miscMenu { 
+	float: left;
+	font: 70% "trebuchet ms", sans-serif;
+	width: 150px;
+	margin: 5px 0px 0px;
+	padding: 0 0 40px 0;
+	background-color: #CCC;
+	background-image: url(img/bottom_grey.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	filter: Alpha(opacity=85);
+	opacity: .85;
+	}
+#miscMenu ul.menu {
+	background: url(img/misc_menu_top.png) no-repeat center top;
+	padding: 25px 16px 0 5px;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+#miscMenu ul.menu ul {
+	background: transparent;
+	padding: 2px 0 0 9px;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+#miscMenu ul.menu li a {
+	text-align: left;
+	display: block;
+	margin: 0px Auto;
+	padding: 3px 0 3px 13px;
+	border-bottom: 1px dotted #E2E2E2;	
+	color: #000;
+	text-decoration: none;
+	width: 100%;
+	}
+
+#miscMenu ul.menu li a:hover {
+	color: #900;
+	background: url(img/menu_arrow.gif) no-repeat 3px center;
+	}
+
+#miscMenu ul.menu li a.active {
+	color: #900;
+}
+
+#miscMenu .title {
+	visibility: hidden;
+	display: none;
+}
+
+
+/* other left aligned stuff */
+#left-blocks { 
+	float: left;
+	width: 150px;
+}
+
+#leftbottom { 
+	float: left;
+	font: 70% "trebuchet ms", sans-serif;
+	width: 138px;
+	margin: 5px 0px 0px;
+	padding: 0 5px 40px 5px;
+	background-color: #DDD;
+	border: 1px solid #AAA;
+	}
+
+#leftbottom ul.events-list,
+#leftbottom ul.news-list {
+	padding: 0px;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+#leftbottom ul.events-list li a,
+#leftbottom ul.news-list li a {
+	text-align: left;
+	display: block;
+	border-bottom: 1px dotted #E2E2E2;	
+	color: #900;
+	text-decoration: none;
+	width: 100%;
+	}
+
+#leftbottom ul.events-list li a:hover,
+#leftbottom ul.news-list li a:hover {
+	color: #900;
+	background: url(img/menu_arrow.gif) no-repeat 3px center;
+	}
+
+#leftbottom .title {
+	padding: 3px;
+	margin: 0;
+}
+
+
+

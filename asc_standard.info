@@ -1,0 +1,16 @@
+name = ASC Standard
+description = A generic theme for OSU.
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = main.css
+stylesheets[all][] = print.css
+stylesheets[all][] = navigation.css
+stylesheets[all][] = menu.css
+
+regions[left] = Left sidebar
+regions[leftbottom] = Left Bottom
+regions[before_content] = Before content
+regions[content] = Content
+regions[header] = Header
+regions[footer] = Footer

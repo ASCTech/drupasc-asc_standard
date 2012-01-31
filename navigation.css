@@ -1,0 +1,55 @@
+/* CSS Document */
+#navcontainer {
+	text-align: center;
+	font-size: 75%;
+	margin: 0 auto;
+	height: 91px;
+	width: 700px;
+	list-style-type:none; 
+	position:relative;
+	padding-top: 1px;
+	background: transparent url('img/asc_standard_logo.png') no-repeat top center;
+	}
+#navcontainer a.homelink {
+	position:absolute; 
+	left: 10px; 
+	top: 5px; 
+	height: 52px;
+	width: 300px;
+	}
+#navcontainer ul.links {
+	position: absolute; 
+	list-style-type: none; 
+	right: 0px; 
+	bottom: 0px; 
+	padding: 0px;
+	margin: 0px;
+	}
+#navcontainer ul.links li {
+	float: left;
+	display: inline;
+	padding: 0;
+	}
+#navcontainer li a {
+	border: 1px solid #000;
+	background: #FFF url(img/buttongradient.png) repeat-x left top;
+	display: block; 
+	padding: 0 10px;
+	line-height: 2; 
+	color: #333;
+	text-decoration:none; 
+	float:left; 
+	font-size:91%; 
+	}
+
+#navcontainer ul.primary_menu li a:hover {
+	border: 1px solid #000;
+	color: #FFF;
+	background: #666666;
+	}
+#navcontainer ul.primary_menu li a.active {
+	background: #FFF url(img/current.jpg) no-repeat left top;
+	padding-bottom: 0px;
+	border-bottom: 1px solid #FFF;
+	color: #000;
+	}

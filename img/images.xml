@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+	<album title="All of the Colleges" description="All of the Colleges" lgPath="/global/assets/img/albums/mix/lg/" tnPath="/global/assets/img/albums/mix/tn/" tn="" audio="" audioCaption="">
+		<img src="1.jpg" caption="" link="" />
+		<img src="2.jpg" caption="" link="" />
+		<img src="3.jpg" caption="" link="" />
+		<img src="4.jpg" caption="" link="" />
+		<img src="5.jpg" caption="" link="" />
+		<img src="6.jpg" caption="" link="" />
+		<img src="7.jpg" caption="" link="" />
+		<img src="8.jpg" caption="" link="" />
+		<img src="9.jpg" caption="" link="" />
+		<img src="10.jpg" caption="" link="" />
+	</album>
+	<album title="Arts" description="College of the Arts" lgPath="/global/assets/img/albums/arts/lg/" tnPath="/global/assets/img/albums/arts/tn/" tn="" audio="" audioCaption="">
+		<img src="1.jpg" caption="" link="" />
+		<img src="2.jpg" caption="" link="" />
+		<img src="3.jpg" caption="" link="" />
+		<img src="4.jpg" caption="" link="" />
+		<img src="5.jpg" caption="" link="" />
+		<img src="6.jpg" caption="" link="" />
+		<img src="7.jpg" caption="" link="" />
+		<img src="8.jpg" caption="" link="" />
+	</album>
+	<album title="Biology" description="College of Biological Sciences" lgPath="/global/assets/img/albums/bio/lg/" tnPath="/global/assets/img/albums/bio/tn/" tn="" audio="" audioCaption="">
+		<img src="1.jpg" caption="" link="" />
+		<img src="2.jpg" caption="" link="" />
+		<img src="3.jpg" caption="" link="" />
+		<img src="4.jpg" caption="" link="" />
+		<img src="5.jpg" caption="" link="" />
+		<img src="6.jpg" caption="" link="" />
+		<img src="7.jpg" caption="" link="" />
+	</album>
+	<album title="Humanities" description="College of Humanities" lgPath="/global/assets/img/albums/hum/lg/" tnPath="/global/assets/img/albums/hum/tn/" tn="" audio="" audioCaption="">
+		<img src="1.jpg" caption="" link="" />
+		<img src="2.jpg" caption="" link="" />
+		<img src="3.jpg" caption="" link="" />
+		<img src="4.jpg" caption="" link="" />
+		<img src="5.jpg" caption="" link="" />
+		<img src="6.jpg" caption="" link="" />
+		<img src="7.jpg" caption="" link="" />
+	</album>
+	<album title="MAPS" description="College of Mathematical and Physical Sciences" lgPath="/global/assets/img/albums/maps/lg/" tnPath="/global/assets/img/albums/maps/tn/" tn="" audio="" audioCaption="">
+		<img src="1.jpg" caption="" link="" />
+		<img src="2.jpg" caption="" link="" />
+		<img src="3.jpg" caption="" link="" />
+		<img src="4.jpg" caption="" link="" />
+		<img src="5.jpg" caption="" link="" />
+		<img src="6.jpg" caption="" link="" />
+		<img src="7.jpg" caption="" link="" />
+		<img src="8.jpg" caption="" link="" />
+	</album>
+	<album title="SBS" description="College of Social and Behavioral Sciences" lgPath="/global/assets/img/albums/sbs/lg/" tnPath="/global/assets/img/albums/sbs/tn/" tn="" audio="" audioCaption="">
+		<img src="1.jpg" caption="" link="" />
+		<img src="2.jpg" caption="" link="" />
+		<img src="3.jpg" caption="" link="" />
+		<img src="4.jpg" caption="" link="" />
+		<img src="5.jpg" caption="" link="" />
+	</album>
+</gallery>

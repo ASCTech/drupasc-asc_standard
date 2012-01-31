@@ -1,0 +1,285 @@
+/* Home */
+
+	img.photo {
+		margin: 0 0 8px 8px;
+		border:none;
+		float: right;
+	}
+	
+	.imgleft {
+		border: none;
+	}
+	
+	.frontcolumn {
+		width: 30%;
+		float: left;
+		padding-right: 3%;
+	}
+	
+	.frontcolumndouble {
+		width: 63%;
+		float: left;
+		padding-right: 3%;
+	}
+	
+	.frontcolumnlast {
+		width: 33%;
+		float: left;
+	}
+
+
+/* General Structure */
+
+	#maincontentbody {
+		background-position: top 0px;		
+		}
+		
+	hr {
+		border-top: 1px solid #666;
+		border-bottom-style: none;
+		border-left-style: none;
+		border-right-style: none;
+		height: 1px;
+		}
+		
+	fieldset {
+		padding: 10px;
+		}
+		
+	fieldset select {
+		border: 1px solid black;
+		background: #eee;
+		font-size: 11px;
+		}
+		
+	legend {
+		font-weight: bold;
+		font-size: 14px;
+		padding-bottom: 8px;
+		}
+
+/* Tables */
+
+	table td {
+		vertical-align: top;
+	}
+
+	table.cal {
+		border-collapse: collapse;
+		margin: 0.5em auto;
+		border: 1px solid;
+		width: 99%;
+	}
+	
+	table.cal caption {
+		margin: 1em auto 0.2em;
+		font-size: small;
+		font-style: italic;
+		text-align: center;
+	}
+	
+	table.cal th,
+	table.cal td {
+		padding: 0.2em;
+		border: 1px solid #999;
+		font-size: 10px;
+		font-weight: normal;		
+	}
+	
+	table.cal th {
+		background-color: #666;
+		color: #fff;
+	}	
+	
+	table.cal td {
+		background-color: #fff;
+		text-align: center;
+		vertical-align: top;
+	}	
+		
+	table.cal td.today {
+		background-color: #ddd;
+	}
+	
+	table.cal td.noday {
+		background-color: #ccc;
+	}
+	
+	table.data {
+		border-collapse: collapse;
+		margin: 0.5em auto;
+		border: 1px solid;
+		width: 100%;
+	}
+
+	table.data caption {
+		margin: 1em auto 0.2em;
+		font-size: small;
+		font-style: italic;
+		text-align: center;
+	}
+
+	table.data th,
+	table.data td {
+		padding: 0.2em;
+		border: 1px solid #ccc;
+		vertical-align: top;
+	}
+	
+	table.data th {
+		background-color: #ddd;
+	}
+	
+	table.data td.tab {
+		background-color: #ddd;
+		text-align: center;
+		white-space: nowrap;
+	}
+
+	table.dso {
+		border-collapse: collapse;
+		margin: 0.5em auto;
+		border: 1px dashed #999;
+	}
+	
+	table.dso caption {
+		margin: 1em auto 0.2em;
+		font-size: small;
+		font-style: italic;
+		text-align: center;
+	}
+	
+	table.dso th,
+	table.dso td {
+		padding: 0.2em;
+		border: 1px dashed #999;
+		vertical-align: top;
+	}
+	
+	table.dso th {
+		background-color: #333;
+		color: #fff;
+	}
+
+	table.dso tbody th:first-child {
+		background-color: #fff;
+		color: #000;
+	}
+	
+	table.dso td.cell_2 {
+		background-color: #990000;
+		color: #fff;
+	}
+	
+	table.dso td.cell_3 {
+		background-color: #ccc;
+	}
+	
+	table.search {
+		background-color: #ddd;
+		border: 1px solid #ccc;
+		width: 100%;
+	}
+
+	table.search td.tab {
+		background-color: #ccc;
+		vertical-align: top;
+	}
+	
+/* Key-point Specific CSS */
+	
+	.key-point {
+		background-color: #ccc;
+		padding: 5px;
+		margin-top: 15px;
+		
+	}
+
+	.key-point h2, .key-point h3, .key-point h4, .key-point h5 {
+		border: none;
+		margin-top: 0;
+		background-image: none;
+	}
+
+	.key-point-dkr {
+		background-color: #EAEAEA;
+		padding: 15px;
+		margin-bottom: 1em;
+	}
+	
+	.key-point-dkr h2, .key-point-dkr h3, .key-point-dkr h4, .key-point-dkr h5 {
+		border: none;
+		margin-top: 0;
+	}
+	
+	.key-point-red {
+		background-color: #990000;
+		padding: 15px;
+		margin-bottom: 1em;
+		color: #FFF;
+	}
+	.key-point-red h2, .key-point-red h3, .key-point-red h4, .key-point-red h5 {
+		border: none;
+		margin-top: 0;
+	}
+	.key-point-red h3 {
+		color: #FFF !Important;
+	}
+	.key-point-red p, .key-point-red p a {
+		color: #FFF;
+	}
+	
+	.key-point-red p a:hover {
+		color: #CCC;
+	}
+	
+	.key-list h3 {
+		border: none;
+	}
+
+	.key-point h3 {
+		margin: 0;
+	}
+	
+	.key-point-dkr h3 {
+		margin: 0;
+	}
+	#maincontentbody h2 a:link, #maincontentbody h2 a:visited {
+		background-image: none !Important;
+		border-bottom: 1px solid #CCC;
+	}
+	.key-point > h1:first-child,
+	.key-point > h2:first-child,
+	.key-point > h3:first-child,
+	.key-point > h4:first-child,
+	.key-point > h5:first-child,
+	.key-point > h6:first-child {
+		margin-top: 0;
+	}
+
+	.key-list {
+		margin: 0px;
+		padding: 0px 0px 0px -10px;
+	}
+	
+	.key-list li {
+		clear: left;
+		list-style: none;
+		list-style-image:none;
+		padding: 0px 0px 1em 0px;
+		margin-left: 0px;
+	}
+	
+	.key-list h3 {
+		margin: 0 0 0.2em 0;
+	}
+	
+	.key-list img {
+		float: left;
+		margin: 0 0.5em 1em 0;
+	}
+	
+	.key-photo {
+		margin: 0px 0px 3px 14px;
+		float: right;
+	}
