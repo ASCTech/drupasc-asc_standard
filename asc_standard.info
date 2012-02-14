@@ -7,6 +7,7 @@ stylesheets[all][] = main.css
 stylesheets[all][] = print.css
 stylesheets[all][] = navigation.css
 stylesheets[all][] = menu.css
+stylesheets[all][] = navbar/osu-navbar-media/css/navbar.css
 
 regions[left] = Left sidebar
 regions[leftbottom] = Left Bottom

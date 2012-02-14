@@ -7,14 +7,13 @@ $language->language ?>" xmlns="http://www.w3.org/1999/xhtml">
 
 <title>
 <?php print $head_title ?></title>
-<?php require_once("sites/all/files/navbar/osu-navbar-h.html"); ?>
 <?php print $head ?>
 <?php print $styles ?>
 <?php print $scripts ?>
 </head>
 
 <body class="<?php print $body_classes; print $leftbottom?" blocks-left":""; ?>">
-<?php require_once("sites/all/files/navbar/osu-navbar-b.html"); ?>
+<?php require_once("navbar/osu-navbar-b.html"); ?>
 
 
 <div id="secondary" <?php print (count($secondary_links) ? ' class="p2"' : ' class="p1"') ?>>
@@ -75,7 +74,7 @@ $language->language ?>" xmlns="http://www.w3.org/1999/xhtml">
 	<div id="footer" class="footer">
 		<?php if ($footer_message){ ?>
 			<?php print $footer_message;?>
-			<?php include("sites/all/files/icons/uicons.php"); ?>
+			<?php include("icons/uicons.php"); ?>
 		<?php } ?>
 	</div>
 </div>
